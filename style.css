@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(68, 40, 134);
+  font-family: Orbitron;
+}
+
+.container {
+  max-width: 60vw;
+  margin: 5rem auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  letter-spacing: 3px;
+  font-size: 50px;
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 7px;
+}
